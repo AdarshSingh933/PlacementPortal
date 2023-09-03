@@ -1,0 +1,16 @@
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Coding Ninjas Placement Cell</a>
+      <% if (locals.user) { %>
+      <a class="navbar-brand" href="/">Welcome <%=locals.user.name%></a>
+      <form class="d-flex">
+        <a class="navbar-brand" href="/search-job">Search Job</a>
+        <a class="navbar-brand" href="/company/home">CompanyList</a>
+        <a class="navbar-brand" href="/employee/download-csv">Report</a>
+        <a class="navbar-brand" href="/employee/signout">Sign out</a>
+      </form>
+      <% } %>
+    </div>
+  </nav>
+</header>

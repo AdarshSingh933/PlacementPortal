@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="/css/searchJobResult.css">
+
+<div class="job-list">
+   
+        <% for (let job of jobs) { %>
+          <div class="job-item">
+            <% if(job.employer_logo) { %>
+              <div><img class="employer-logo" src="<%= job.employer_logo %>"></div>
+            <% } %>
+            <div class="employer-name"><b><%= job.employer_name %></b></div>
+            <div class="employer-location"><span><%= job.job_city %></span><span><%= job.job_state %></span>
+              <span><%= job.job_country %></span></div>
+            <div class="employer-title"><%= job.job_title %></div>
+            <div ></div>
+            <div class="employer-job-link">
+              <h5>Link To Apply Job</h5>
+              <a href="<%= job.job_apply_link %>"><%= job.job_apply_link %></a>
+            </div>
+          </div>
+
+        <% } %>
+</div>
+
+
+
+

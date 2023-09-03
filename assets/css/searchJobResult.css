@@ -1,0 +1,17 @@
+.job-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+.job-item{
+    width: 43%;
+    margin-bottom: 23px;
+    border: 2px solid grey;
+    padding: 17px;
+}
+.employer-logo{
+      height: 50px;
+      width:80px;
+}

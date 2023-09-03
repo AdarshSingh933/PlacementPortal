@@ -1,0 +1,51 @@
+
+
+    <form
+      class="w-60 mx-auto mt-4"
+      action="/company/schedule-interview"
+      method="post"
+      style="height: 70vh; display: flex; flex-direction: column; justify-content: space-between; align-items: center;"
+    >
+      <h3 style="margin: 10px;">Schedule Interview</h3>
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <select
+          class="form-select"
+          aria-label="Default select example"
+          name="id"
+          id="name"
+        >
+        <option selected disabled>Select Student</option>
+
+        <%for(let student of students){%>
+        <option value="<%=student._id%>"><%= student.name %></option>
+        <%}%>
+      </select></select>
+      </div>  
+
+      <div class="mb-3">
+        <label for="company" class="form-label">Company</label>
+        <input
+          type="text"
+          class="form-control"
+          id="company"
+          name="company"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="date" class="form-label">Date</label>
+        <input
+          type="date"
+          class="form-control"
+          id="date"
+          name="date"
+        />
+      </div>
+
+          <button type="submit" class="btn btn-primary align-self-center">
+            Schedule Interview
+          </button>
+    </form>
+    

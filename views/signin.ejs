@@ -1,0 +1,48 @@
+
+    <div
+      class="w-50 border border-dark mx-auto mt-5"
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div class="mx-auto mt-3 mb-3" style="width: 100px">
+        <h4>Sign In</h4>
+      </div>
+
+      <form class="w-50 mx-auto" action="/employee/create-session" method="POST">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="abc@email.com"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+
+        <div style="display: flex; justify-content: center">
+          <button type="submit" class="btn btn-primary">Log In</button>
+        </div>
+      </form>
+
+      <div class="mx-auto mb-3 mt-3" style="width: 300px">
+        <a href="/employee/signup" style="margin-left: 90px">Sign Up Instead</a>
+      </div>
+    </div>
+  
