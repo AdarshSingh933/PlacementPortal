@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
 
-dotenv.config({ path: 'config/.env' });
 
-mongoose.connect('mongodb://127.0.0.1:27017/Placement-Cell', {
+mongoose.connect('mongodb+srv://Adarsh:VmJzvZBBqnZs11uW@cluster0.2lqvjlu.mongodb.net/Placement-Cell', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
