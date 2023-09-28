@@ -3,7 +3,7 @@
 ## Deployed Link 
 
 
-[https://to-do-app-6c60.onrender.com](https://placement-cell-uh40.onrender.com)
+https://placement-cell-uh40.onrender.com
 
 
 ## Node.js ,MongoDB ,EJS ,CSS ,JQuery/AJax ,BootStrap ,Mongoose.js ,Express.js, Passport.js ,Local-Strategy ,Axios ,Csv lib.
@@ -16,28 +16,48 @@ User can fetch real job from search job page(using api for that).
 
 ## Preview
 
-## Home Page
+## SignIn Page
 
-![Screenshot (29)](https://github.com/AdarshSingh933/TO-DO-APP/assets/130076154/6dbef11f-9280-4ec3-a326-3703f111139a)
-
-
-## Adding Task
-
-![Screenshot (30)](https://github.com/AdarshSingh933/TO-DO-APP/assets/130076154/937b6b6b-9655-488a-92b8-14e05e870cb0)
+![Screenshot (34)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/2e5da5fd-6f3c-4202-935e-6d57188c15fa)
 
 
-## Task Added
+## Placement Cell Home Page
 
-![Screenshot (31)](https://github.com/AdarshSingh933/TO-DO-APP/assets/130076154/e52d5ae3-a00e-4ed3-890a-d647358cabdd)
+![Screenshot (35)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/0ed47d1e-5060-4e7c-916d-be95881c20f1)
 
 
-## Selecting Task to Delete
+## Adding Student 
 
-![Screenshot (32)](https://github.com/AdarshSingh933/TO-DO-APP/assets/130076154/7148d69d-e7a9-4083-9744-1f18f39d298b)
+![Screenshot (36)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/abd1a882-3fb6-4a84-8dc3-b582d01d9b0e)
 
-## Task Deleted
 
-![Screenshot (33)](https://github.com/AdarshSingh933/TO-DO-APP/assets/130076154/d105d69d-cd51-4416-b7e8-7f6d1146a0fa)
+## Company List Page where all the allocated interview to student is showing
+
+![Screenshot (37)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/0904b266-a128-4fed-bbe8-c46518b24643)
+
+
+## Scheduling Interview 
+
+![Screenshot (38)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/5f429e30-322f-4fec-9799-c77bc694df0b)
+
+
+## Search Job Page
+
+![Screenshot (40)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/cc971305-5087-4b54-97cf-0919a21b022c)
+
+
+## Job Lists
+
+![Screenshot (41)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/2ef324ce-5b47-4221-82bc-78ba889a8a8c)
+
+
+## Downloaded CSv report of student data
+
+![Screenshot (42)](https://github.com/AdarshSingh933/Placement-Cell.github.io/assets/130076154/ac78bab2-76c2-4e3e-b7f7-4015e0f97f10)
+
+
+
+
 
 
 
