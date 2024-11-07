@@ -15,3 +15,7 @@
       height: 50px;
       width:80px;
 }
+
+.employer-job-link{
+    overflow: hidden;
+}
